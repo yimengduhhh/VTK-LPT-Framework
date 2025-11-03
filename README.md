@@ -55,7 +55,7 @@ The repository does not ship a top-level `CMakeLists.txt`. Choose one of the int
    )
 
    paraview_add_plugin(VTKLPTFramework
-     VERSION                "1.0.0"
+     VERSION                "3.3.0"
      MODULES                LagrangianParticleTracker::vtkLagrangianParticleTracker
      MODULE_FILES           "${CMAKE_CURRENT_SOURCE_DIR}/VTK-LPT-Framework/plugin/CMakeList.txt"
      SERVER_MANAGER_XML     "${CMAKE_CURRENT_SOURCE_DIR}/VTK-LPT-Framework/plugin/LagrangianParticleTracker"
