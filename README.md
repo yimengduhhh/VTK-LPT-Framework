@@ -19,7 +19,7 @@ VTK-LPT-Framework/
     vtkLagrangianFinallyModel.{h,cxx}
     vtkLagrangianParticleTracker.{h,cxx}
   plugin/                       # ParaView plugin XML and module declaration
-    CMakeList.txt               # vtk_module definition consumed by paraview_add_plugin
+    CMakeLists.txt               # vtk_module definition consumed by paraview_add_plugin
     LagrangianParticleTracker   # ServerManager XML (GUI and property definitions)
   LICENSE                       # BSD 3-Clause license
   README.md
